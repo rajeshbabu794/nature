@@ -1,0 +1,102 @@
+<html>
+     <head>
+         <style>
+             .container{
+                 position: relative;
+                 width: 300px;
+                 height: 300px;
+                 border: 1px solid #ccc;
+                 margin: 20px;
+             }
+             
+             }
+             .static-element{
+                 width: 60px;
+                 height: 50px;
+                 background-color: red;
+                 right: 30px;
+             }
+             .relative-element{
+                 position: relative;
+                 top: 20px;
+                 left: 30px;
+                 width: 60px;
+                 height: 50px;
+                 background-color: blue;
+             }
+             .absolute-element{
+                 position: absolute;
+                 top: 20px;
+                 left: 30px;
+                 width: 60px;
+                 height: 50px;
+                 background-color: green;
+             }
+             .fixed-element{
+                 position: fixed;
+                 top: 20px;
+                 left: 30px;
+                 width: 50px;
+                 height: 50px;
+                 background-color: orange;
+             }
+             h1{
+                 text-align: center;
+                 color:black;
+             }
+             img{
+                 background-color: yellowgreen;
+                 height:200px;
+                 width:200px;
+                 border-style: solid;
+             }
+             body{
+                 background-color:deepskyblue;
+                 background-size: none;
+                 background-repeat: no-repeat;
+             }
+             .main{
+                 display: flex;
+                 flex-direction: row;
+                 flex-wrap: nowrap;
+                 align-items: center;
+                 justify-content: space-around;
+             }
+         </style>
+     </head>
+     <body >
+         <h1>positioning Types Example</h1>
+         
+         <div class="container">
+             <div class="static element">Static</div>
+             <h2> nature</h2>
+             <img src="pexels-stevanus-praska-2843402.jpg">
+             
+         </div>
+         <div class="container">
+             <div class="=relatives element">Relative</div>
+             <h2>nature</h2>
+             <img src="pexels-avery-nielsenwebb-2406395.jpg">
+         </div>
+         <div class="container">
+             <div class="absolute-element">Absolute</div>
+             <h2>nature2</h2>
+             <img src="pexels-oliver-sj%C3%B6str%C3%B6m-931007.jpg">
+         </div>
+         <div class="container">
+             <div class="fixed-element">Fixed</div>
+             <h2>nature</h2>
+             <img src="beach-418742_1280.jpg">
+             
+         </div>
+        <header>
+         <h1>flex box </h1>
+         </header>
+         <div class="main">
+         <img src="pexels-avery-nielsenwebb-2406395.jpg">
+             <img src="pexels-oliver-sj%C3%B6str%C3%B6m-931007.jpg">
+             <img src="pexels-stevanus-praska-2843402.jpg">
+         </div>
+         
+     </body>
+</html>
